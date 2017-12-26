@@ -1,0 +1,12 @@
+<nav class="menu">
+    <ul class="niv">
+      <li ng-repeat="headline in :: headlines" >
+        <a class="sect" ng-href="#{{headline.element.id}}" ng-if="headline.level == '2'" offset="80" du-smooth-scroll du-scrollspy="{{headline.element.id}}"> {{headline.label}} </a>
+        <ul class="niv3">
+          <li>
+            <a class="sect" ng-href="#{{headline.element.id}}" ng-if="headline.level == '3'" offset="80" du-smooth-scroll du-scrollspy="{{headline.element.id}}"> {{headline.label}} </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
