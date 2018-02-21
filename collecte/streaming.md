@@ -2,7 +2,7 @@
 
 Spark, ou comment traiter des données à la vitesse de l’éclair
 
-## Récap
+### Récap
 
 - Démo sur les RDD et DataFrames
 - Démo sur Spark Streaming
